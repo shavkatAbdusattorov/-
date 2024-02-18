@@ -1,0 +1,110 @@
+.container_score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: -28px;
+  margin: -28px;
+}
+
+.container_score p {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.container_score span {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.container_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container_image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.container_image .imgReset {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.container_images_clicking {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.imagesFromUser {
+  border: 3px solid #000;
+  padding: 10px;
+}
+.imagesFromUser:hover {
+  padding: 20px;
+}
+.imagesFromComputer {
+  border: 3px solid #000;
+  padding: 10px;
+}
+.imagesFromComputer:hover {
+  padding: 20px;
+}
+
+.imgBtn1 {
+  width: 80px;
+  height: 80px;
+}
+
+.imgBtn1:hover {
+  width: 90px;
+  height: 90px;
+}
+
+.imgBtn2 {
+  width: 80px;
+  height: 80px;
+}
+
+.imgBtn2:hover {
+  width: 90px;
+  height: 90px;
+}
+
+.imgBtn3 {
+  width: 80px;
+  height: 80px;
+}
+
+.imgBtn3:hover {
+  width: 90px;
+  height: 90px;
+}
+
+.for_btn_play {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.playBtn {
+  display: none;
+  padding: 12px 60px;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: rgb(53, 85, 2);
+  color: #cacaca;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.playBtn:hover {
+  background-color: rgb(95, 198, 5);
+}
